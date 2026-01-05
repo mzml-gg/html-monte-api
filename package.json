@@ -1,23 +1,26 @@
 {
   "name": "monte-dev-api",
   "version": "1.0.0",
-  "description": "MonteDev API Platform - توثيق واختبار واجهات البرمجة",
+  "description": "منصة MonteDev API لتوثيق واختبار واجهات البرمجة",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js",
-    "vercel-build": "echo 'No build required'"
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "jsonwebtoken": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   },
   "engines": {
-    "node": ">=14.0.0"
-  }
+    "node": ">=16.0.0"
+  },
+  "keywords": ["api", "documentation", "testing", "monte-dev"],
+  "author": "MonteDev Team",
+  "license": "MIT"
 }
